@@ -2,9 +2,9 @@
 
 ## 1 项目展示
 
-<center><img src="./media/screen.png" width="50%"></center>
+<center><img src="https://github.com/dandanDQ/weather-react-native-android/blob/master/media/screen.PNG" width="50%"></center>
 <center><strong>模拟器截图</strong></center>
-<center><img src="./media/oppo_reno.png" width="50%"></center>
+<center><img src="https://github.com/dandanDQ/weather-react-native-android/blob/master/media/oppo_reno.png" width="50%"></center>
 <center><strong>真机apk运行截图(机型：oppo reno)</strong></center>
 
 ### 1.1 功能介绍
@@ -143,10 +143,6 @@ npm install react-native-geolocation-service
 appid填入地址栏appid一项作为查询信息
 
 免费用户可获取的信息包括当前天气情况（current weather API）、五天间隔三小时天气预报（5 days/3 hour forecast API）、天气地图（weather maps 1.0）、紫外线指数（UV index）和天气预警（weather alert）。
-
-
-![service](media/sub.PNG)
-
 
 
 ##### 使用fetch查询天气数据
@@ -306,7 +302,7 @@ WindDirection(degree){
 查询的天气结果会返回一个icon的名称，存放于weather.icon中，作为一个变量，怎么使用require取获取图片？
 一开始我尝试了直接require(variable)的方式，但显然这是不可行的，因为require中只能有纯字符串，网上看到require('../icons/'+variable+'.png')的方式，但也不能使用。
 
-![](./error3.png)
+![](https://github.com/dandanDQ/weather-react-native-android/blob/master/media/error3.PNG)
 
 最后我将每一个require实现作为一个case，传入指定的icon名字，返回对应的require结果。
 
